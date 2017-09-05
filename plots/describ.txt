@@ -1,0 +1,23 @@
+n_:
+	d=2, P1=P2=31,
+	n in range(40,401,40), one quarter of each profile
+	T/L, exectime
+	samplesize=10
+d_:
+	n=200, one quarter of each profile
+	Pi=10000^(1/d)
+	d in range(1,5)
+	T/L, exectime
+	samplesize=10
+P_:
+	n=200, one quarter of each profile
+	d=2
+	P1=P2 in range(10,101, 10)
+	T/L, exectime
+	samplesize=10
+P1_:
+	n=200, one quarter of each profile
+	d=2
+	P1 in range(10,101, 10), P2 = P1+1
+	T/L, exectime
+	samplesize=10
